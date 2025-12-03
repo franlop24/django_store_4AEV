@@ -1,9 +1,124 @@
-* {
+*{
     margin: 0;
     padding: 0;
 }
 
-body {
-    background-color: beige;
+Body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: bisque;
+}
+
+header{
+    width: 100%;
+    height: 400px;
+    background: url('../imagen/fondo.jpg') no-repeat center;
+    background-size: cover;
+}
+
+header div.header-content {
+    width: 100%;
+    height: 100%;
+    /* background: linear-gradient(to right top,rgba(255, 224, 121, 0.4) , rgba(173, 141, 33, 0.4) , rgba(247, 192, 109, 0.4)); */
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    color: rgb(255, 255, 255);
+    gap: 20px;
+
+}
+
+header div img {
+    width: 250px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px  5px rgb(255, 210, 127);
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main .card{
+    width: 300px;
+    background-color: rgb(243, 204, 133);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+main .card:hover {
+    box-shadow: 0 0 10px 10px rgb(165, 141, 96);
+    
+}
+
+main .card picture{
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+main .card img{
+    width: 100%;
+    box-shadow: 0 0 5px 2px rgb(173, 141, 33);
+}
+
+main .card ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+main .card ul li{
+    list-style: none;
+    background-color: rgb(255, 224, 121);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 2px rgb(173, 141, 33);
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(146, 124, 83);
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer a {
+    color: rgb(241, 221, 166);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer input {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+footer button {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 224, 121);
+    font-weight: bold;
+    cursor: pointer;
 }

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <title>Mi Pagina Personal Ruben Ruesga</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <img src="{% static 'imagen/mi foto.jpg' %}">
+            <div>
+                <h1>Bienvenido a mi pagina personal 🤎</h1style=>
+                </h1>
+                <h2>Estudiante</h2>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="card">
+            <picture>
+                <img src="{% static 'imagen/descargar (7).jpg' %}" alt="Imagen de estrellas">
+            </picture>
+            <h3>Ruben Abrahan De los Santos Ruesga</h3>
+            <ul>
+                <li>Alumno de la Universidad Tecnologica del Estado de Tlaxcala</li>
+                <li>Estudiante de TIAEVND</li>
+            </ul>
+        </section>
+        <section class="card">
+            <picture>
+                <img src="{% static 'imagen/descargar (3).jpg' %}" alt="Imagen de teatro">
+            </picture>
+            <h3> Curiosidades sobre mí</h3>
+            <ul>
+                <li>Mi comida favorita es la pizza</li>
+                <li>Me gusta los videojuegos</li>
+                <li>Soy actor en una compañia de teatro</li>
+            </ul>
+        </section>
+        <section class="card">
+            <picture>
+                <img src="{% static 'imagen/Melanie Martinez Wallpaper ✨️.jpg' %}" alt="Imagen de Melanie">
+            </picture>
+            <h3> Mis Cantantes favoritas</h3>
+            <ul>
+                <li>Melanie Martinez</li>
+                <li>Olivia Rodrigo</li>
+                <li>Taylor Swift</li>
+            </ul>
+        </section>
+        <section class="card">
+            <picture>
+                <img src="{% static 'imagen/descargar (8).jpg' %}" alt="Pokemons">
+            </picture>
+            <h3> Mis Pokemon fav</h3>
+            <ul>
+                <li>Mimikyu</li>
+                <li>Dedenne</li>
+                <li>Gengar</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <h3>Contacto</h3>
+        <P> Visita mi perfil en <a href="https://www.facebook.com/abrahan.ruesga">Facebook</a></P>
+        <P> Visita mi perfil en <a href="https://github.com/ruben-ruesga">Github</a></P>
+        <p> visita mi perfil en <a href="https://www.instagram.com/abrahan_rsg/">Instagram</a></p>
+        <div>
+            <input type="email" placeholder="email">
+            <button id="btn">Enviar</button>
+        </div>
+        <br>
+    </footer>
+</body>
+
+</html>
